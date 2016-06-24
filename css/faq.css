@@ -1,0 +1,479 @@
+body {
+  width: 100vw;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+/* html */
+.clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+div#head {
+  height: 14%;
+  width: 100vw;
+  padding: 2%;
+}
+
+div#logo {
+  width: 80px;
+  margin-right: 60%;
+  border: 2px solid #000;
+  border-radius: 50%;
+  float: left;
+}
+
+h1.logo-text {
+  font-size: 47px;
+  padding: 4%;
+  text-align: center;
+}
+
+
+nav {
+  text-align: center;
+  width: 90%;
+  margin-left: 4%;
+  border-bottom: 3px solid #000;
+}
+
+
+li {
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 2.5em;
+  margin: 4% .75% 2% .75%;
+}
+
+.search-cart {
+  width: 100%;
+  position: relative;;
+}
+
+input[type="text"] {
+  margin-top: 15%;
+  width: 85%;
+  height: 1em;
+  font-size: 2em;
+  padding: 0;
+  border: none;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+  color: #000;
+}
+
+input[type="text"]:-moz-placeholder { /* Firefox 18- */
+  color: #000;
+}
+
+input[type="text"]::-moz-placeholder {  /* Firefox 19+ */
+  color: #000;
+}
+
+input[type="text"]:-ms-input-placeholder {
+  color: #000;
+}
+
+.search-form {
+  float: left;
+  width: 15%;
+  padding: 0 2%;
+  border-bottom: 2px solid #000;
+}
+
+.search-button{
+  position: relative;
+  top: -13px;
+  display: inline-block;
+  background: #fff;
+  border-radius: 30px;
+  height: 15px;
+  width: 15px;
+  border: 2px solid #000;
+}
+
+.search-button:after {
+  content: "";
+  height: 14px;
+  width: 2px;
+  background: #000;
+  position: absolute;
+  top: 8px;
+  left: 17px;
+  -webkit-transform: rotate(127deg);
+  -moz-transform: rotate(127deg);
+  -ms-transform: rotate(127deg);
+  -o-transform: rotate(127deg);
+}
+
+.shopping-cart svg {
+  width: 4%;
+  height: 4%;
+  display: inline-block;
+  margin-top: 2%;
+}
+
+.content {
+  margin: 0 0 0 4%;
+}
+
+.content h1 {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  border-bottom-width: 5%;
+  text-align: center;
+}
+
+.content h3, p {
+  text-align: center;
+}
+
+#green-line {
+  border-bottom: 7px solid #bcdeb3;
+  width: 15%;
+  margin: 2% auto 10% auto;
+}
+
+.question {
+  margin: 6% 0;
+}
+
+.question p {
+  line-height: 1.5em;
+}
+
+.col {
+  width: 100%;
+  text-align: center;
+}
+
+.col-1 {
+  background-color: #ffc0c9;
+}
+
+p.popular-questions {
+  color: #fff;
+}
+
+p.about-questions {
+  color: #bce9ff;
+}
+
+p.shipping-questions {
+  color: #ffc0c9;
+}
+
+#footer {
+  width: 100vw;
+  position: fixed;
+  bottom:0;
+  background-color: #bcdeb3;
+  height: 9em;
+  margin-right: -5%;
+  padding: 0 0 10% 9%;
+}
+
+#footer h3 {
+  text-align: left;
+  font-size: 1.5em;
+  margin-bottom: 1%;
+}
+
+.contact {
+  width: 100%;
+  display: inline-block;
+  float: left;
+  margin-top: 1%;
+}
+
+.subscribe {
+  width: 100%;
+  display: inline-block;
+  float: right;
+  margin-top: 1%;
+}
+
+#social {
+  padding: 1% 0;
+}
+
+#facebook {
+  zoom: .5;
+  left: 0px;
+  display: inline-block;
+  padding: 0 1%;
+  margin: 0;
+  width: 85px;
+  content: " ";
+  height: 85px;
+  background: url("../images/social-media-logos.png") -30px -38px;
+}
+
+#youtube {
+  zoom: .5;
+  left: 0px;
+
+  display: inline-block;
+  padding: 0 1%;
+  margin: 0;
+  width: 85px;
+  content: " ";
+  height: 85px;
+  background: url("../images/social-media-logos.png") -30px 283px;
+}
+
+
+#twitter {
+  zoom: .5;
+  left: 0px;
+  display: inline-block;
+  padding: 0 1%;
+  margin: 0;
+  width: 85px;
+  content: " ";
+  height: 85px;
+  background: url("../images/social-media-logos.png") -166px -36px;
+}
+
+.email {
+  font-size: 1em;
+  color: #000;
+  text-decoration: none;
+  margin: 1% 0 1% 0;
+}
+
+.subscribe form {
+  border: 2px solid #000;
+  width: 40%;
+}
+
+.subscribe button {
+  border-left: 2px solid #000;
+  height: 2em;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  background-color: #bcdeb3;
+  font-size: 1.5em;
+  color: #fff;
+  padding: 2%;
+}
+
+input[type="email"] {
+  width: 75%;
+  height: 1em;
+  font-size: 1.5em;
+  border: none;
+  background-color: #bcdeb3;
+  padding: 1% 0 0 4%;
+}
+
+input[type="email"]:focus {
+  outline: none;
+}
+
+input[type="email"]::-webkit-input-placeholder {
+  color: #000;
+  background-color: #bcdeb3;
+}
+
+input[type="email"]:-moz-placeholder { /* Firefox 18- */
+  color: #000;
+}
+
+input[type="email"]::-moz-placeholder {  /* Firefox 19+ */
+  color: #000;
+}
+
+input[type="email"]:-ms-input-placeholder {
+  color: #000;
+}
+
+.subscribe > h3 > span {
+  color: #fff;
+}
+
+@media screen and (min-width: 1000px) {
+
+  .col {
+    width: 25%;
+    display: inline-block;
+    float:left;
+    margin: 4%;
+  }
+
+  .col-1 {
+    height: 1000px;
+    margin-bottom: 0px;
+    padding: 0;
+    margin-top: 5%;
+  }
+
+  .col-1, .col-2, .col-3 {
+    padding: 2%;
+    box-sizing: border-box;
+  }
+
+  #footer  {
+    width: 100%;
+    height: 2em;
+    margin-top: -4%;
+    padding-top: 0;
+  }
+
+  #footer h3 {
+    font-size: 1.5em;
+  }
+
+  .search-cart {
+    float: right;
+    width: 25%;
+  }
+
+  .search-form {
+    float: left;
+    border-bottom: 1px solid #000;
+  }
+
+  .shopping-cart svg {
+    width: 10%;
+    height: 10%;
+    margin-top:7%;
+  }
+
+  input[type="text"] {
+    width: 50%;
+    font-size: 1.25em;
+    padding-left: 5%;
+  }
+
+  .search-form {
+    width: 60%;
+  }
+
+  .search-button {
+    top: -8px;
+    height: 15px;
+    width: 15px;
+    border: 2px solid #000;
+  }
+
+  .search-button:after {
+    height: 10px;
+    width: 2px;
+    top: 8px;
+    left: 17px;
+  }
+
+  nav {
+    width: 85%;
+    margin-left: 5%;
+    border-bottom: 2px solid #000;
+  }
+
+  nav li {
+    font-size: 1em;
+    margin: 8% 3% 3% 3%;
+  }
+
+  .content h1 {
+    margin-top: 3%;
+    font-size: 2em;
+    margin-bottom: 2%;
+  }
+
+  #green-line {
+    border-bottom: 3px solid #bcdeb3;
+    width: 7%;
+    margin: 0% auto 0% auto;
+  }
+
+  .contact {
+    width: 50%;
+  }
+
+  .email {
+    font-size: 1em;
+  }
+
+  .subscribe {
+    width: 50%;
+  }
+
+  .subscribe button {
+    border-left: 1px solid #000;
+    font-size: 1.7em;
+    height: 1.75em;
+  }
+
+  .subscribe form {
+    border: 1px solid #000;
+  }
+
+  input[type="email"] {
+    width: 75%;
+    font-size: 1.25  em;
+    padding: 4%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+
+
+  #footer {
+    margin-top: -27%;
+  }
+
+}
+
+@media screen and (min-width: 2000px) {
+
+
+  body {
+    margin-left: 4%
+  }
+
+  input[type="text"] {
+      width: 79%;
+  }
+
+  .subscribe button {
+    font-size: 2em;
+    height: 3em;
+  }
+
+  #footer {
+    margin-top: -27%;
+    margin-left: -4%;
+  }
+}
+
+@media screen and (min-width: 3000px) {
+
+  input[type=email] {
+    padding: 1%;
+    width: 87%;
+  }
+
+  .subscribe form {
+    width: 36%;
+  }
+
+  #facebook, #twitter, #youtube {
+    width: 15px;
+  }
+}
